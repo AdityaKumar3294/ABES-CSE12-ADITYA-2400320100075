@@ -4,3 +4,15 @@ img[alt]{
 img[title]{
     border: 10px solid yellow
 }
+input[type="text"]{
+    background-color: black;
+}
+input[type="password"]{
+    background-color: yellow;
+}
+input[type="radio"]{
+    background-color: red;
+}
+input[type="checkbox"]{
+    background-color: blue;
+}
