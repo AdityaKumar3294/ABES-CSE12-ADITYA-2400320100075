@@ -1,9 +1,6 @@
-h1{
-    text-align: center;
-    color: black
-    background-image: url("https://www.abes.ac.in/assets/2.jpg");
-}
+
 form{
-     background-image: url("https://www.abes.ac.in/assets/2.jpg");
+     background-image: url("https://www.abes.ac.in/assets/Logo.png");
+     background-size: cover;
      color: blue;
 }
