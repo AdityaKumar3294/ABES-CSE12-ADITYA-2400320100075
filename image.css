@@ -1,0 +1,6 @@
+img[alt]{
+    border: 10px solid green;
+}
+img[title]{
+    border: 10px solid yellow
+}
