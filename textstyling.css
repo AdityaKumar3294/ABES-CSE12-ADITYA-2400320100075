@@ -1,18 +1,12 @@
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 100;
-    font-style: normal;
-    color: rgb(128, 0, 0);
-    text-align: center;
+.div1{
+    background-color:aqua;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
 }
-p{
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 900;
-    font-style: normal;
-    color: rgb(222, 135, 197);
-    line-height: 10px;
-    letter-spacing: normal;
-    text-align: center;
-    text-decoration: double;
-    text-indent: 10%;
+.div2{
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
 }
