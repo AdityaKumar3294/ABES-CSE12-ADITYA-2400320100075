@@ -1,0 +1,12 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-style: italic;
+    color: green wavy underline;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: normal;
+    color: burlywood;
+}

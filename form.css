@@ -1,6 +1,6 @@
 
 form{
      background-image: url("https://www.abes.ac.in/assets/Logo.png");
-     background-size: contain;
+     background-size: cover;
      color: blue;
 }
