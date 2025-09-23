@@ -2,12 +2,12 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
     font-style: italic;
-    color: green;
+    color: rgb(128, 0, 0);
     text-align: center;
 }
 p{
     font-family:'Times New Roman', Times, serif;
     font-weight: 900;
     font-style: normal;
-    color: burlywood;
+    color: rgb(222, 135, 197);
 }
