@@ -1,0 +1,11 @@
+.ul{
+    display: flex;
+    margin: 0px;
+}
+ul li{
+    margin: 20px;
+}
+nav{
+    background-color: black;
+    color: white;
+}
