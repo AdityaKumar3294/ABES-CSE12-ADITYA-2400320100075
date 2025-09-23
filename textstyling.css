@@ -6,6 +6,8 @@
     padding: 10px;
     margin: 5px;
     border-radius: 20px;
+    background-image: url("https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=");
+    background-size: cover;
 }
 .div2{
     background-color: aquamarine;
@@ -14,6 +16,7 @@
     border: 2px solid red;
     padding: 10px;
     margin: 5px;
+    border-radius: 20px;
 }
 .outer{
     display: flex;
