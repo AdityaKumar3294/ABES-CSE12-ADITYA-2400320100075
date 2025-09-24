@@ -1,6 +1,5 @@
-.ul{
+ul{
     display: flex;
-    margin: 0px;
 }
 ul li a{
     margin: 20px;
@@ -8,8 +7,12 @@ ul li a{
     color: white;
     margin-right: 200px;
 }
-nav{
+div{
     background-color: black;
     color: white;
     display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
 }

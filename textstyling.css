@@ -1,7 +1,7 @@
 .div1{
     background-color:aqua;
-    height: 500px;
-    width: 500px;
+    height: 700px;
+    width: 800px;
     border: 2px solid black;
     padding: 10px;
     margin: 5px;
@@ -11,8 +11,8 @@
 }
 .div2{
     background-color: aquamarine;
-    height: 500px;
-    width: 500px;
+    height: 700px;
+    width: 800px;
     border: 2px solid red;
     padding: 10px;
     margin: 5px;
@@ -21,6 +21,6 @@
     background-size:cover;
 }
 .outer{
-    display: flex;
+    display:flex;
 }
 
