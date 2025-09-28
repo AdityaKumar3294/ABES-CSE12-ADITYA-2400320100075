@@ -8,6 +8,8 @@
     border-radius: 20px;
     background-image: url("https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=");
     background-size: cover;
+    transition-timing-function: linear;
+    transition-duration: 0.1s;
 }
 .div2{
     background-color: aquamarine;
@@ -19,8 +21,8 @@
     border-radius: 20px;
     background-image: url("https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp");
     background-size:cover;
-    transition-duration: 1s;
     transition-timing-function: linear;
+    transition-duration: 0.1s;
 }
 .outer{
     display:flex;
@@ -28,3 +30,7 @@
 .div2:hover{
     font-size: 30px;
 }
+.div1:hover{
+    font-size: 30px;
+}
+
