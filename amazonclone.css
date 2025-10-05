@@ -13,7 +13,7 @@
     justify-content: space-evenly;
 }
 .nav-logo{
-    height: 60px;
+    height: 50px;
     width: 100px;
 }
 
@@ -153,7 +153,16 @@ span{
 }
 .box{
     border: 2px solid black;
-    height: 400px;
+    height: 450px;
     width: 23%;
     background-color: white;
+}
+.box-img1{
+    background-image: url("box1.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
 }
