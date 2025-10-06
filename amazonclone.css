@@ -189,3 +189,53 @@ span{
     border-radius: 4px;
     margin-top: 60px;
 }
+.box-img4{
+    background-image: url("box4.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 35px;
+}
+.box-img5{
+    background-image: url("box5.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 35px;
+}
+.box-img6{
+    background-image: url("boxs6.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 35px;
+}
+.box-img7{
+    background-image: url("box7.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 35px;
+}
+.box-img8{
+    background-image: url("box8.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 35px;
+}
