@@ -1,0 +1,10 @@
+.div1{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border: 5px solid black;
+    background-image: url("box5.jpg");
+    background-size: cover;
+}
+
+
