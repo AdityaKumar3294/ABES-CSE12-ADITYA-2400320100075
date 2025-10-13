@@ -55,3 +55,6 @@ tbody td:last-child {
   vertical-align: middle;
   height: 120px;
 }
+tbody a{
+  text-decoration: none;
+}
