@@ -3,8 +3,19 @@
     width: 500px;
     margin: auto;
     border: 5px solid black;
-    background-image: url("box5.jpg");
+    background-image: url("box8.jpg");
     background-size: cover;
+}
+.div1:hover{
+    width: 600px;
+    height: 600px;
+    transition: 2s;
+    border: 5px solid purple;
+    box-shadow: 10px 10px 5px gold;
+    transform: rotate(20deg);
+    transform: skew(180deg);
+    transition-timing-function: linear;
+
 }
 
 
