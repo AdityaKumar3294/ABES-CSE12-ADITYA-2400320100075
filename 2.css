@@ -1,3 +1,6 @@
+body{
+    height: 1500px;
+}
 .container{
     display: flex;
     gap: 10px;
@@ -7,11 +10,17 @@
     width: 200px;
     height: 200px;
     background-color: aqua;
+    position: relative;
+    top: 50px;
+
 }
 .box2{
     width: 200px;
     height: 200px;
     background-color: red;
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
 }
 .box3{
     width: 200px;
