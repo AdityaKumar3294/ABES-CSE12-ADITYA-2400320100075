@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar Example</title>
+  <style>
+    /* Reset default list and margin */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Navigation bar styling */
+    nav {
+      background-color: #333;
+    }
+
+    nav ul {
+      list-style-type: none;       /* Remove bullets */
+      display: flex;               /* Arrange items horizontally */
+      justify-content: center;     /* Center items */
+    }
+
+    nav ul li {
+      margin: 0 20px;              /* Space between menu items */
+    }
+
+    nav ul li a {
+      display: block;
+      color: white;
+      text-decoration: none;       /* Remove underline */
+      padding: 15px 20px;
+      font-size: 18px;
+      transition: 0.3s;            /* Smooth hover transition */
+      border-radius: 8px;          /* Rounded corners */
+    }
+
+    /* Hover effect */
+    nav ul li a:hover {
+      background-color: #ff9800;   /* Orange background on hover */
+      color: black;                /* Text turns black */
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
