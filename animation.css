@@ -3,13 +3,30 @@
     height: 200px;
     background-color: aquamarine;
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
-@keyframes example{
+/**@keyframes example{
     from{
         background-color: aquamarine;
     }
     to{
+        background-color: slateblue;
+    }
+}**/
+@keyframes example{
+    0%{
+        background-color: aquamarine;
+    }
+    25%{
+        background-color: coral;
+    }
+    50%{
+        background-color: gold;
+    }
+    75%{
+        background-color: red;
+    }
+    100%{
         background-color: slateblue;
     }
 }
