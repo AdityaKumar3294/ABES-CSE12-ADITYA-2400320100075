@@ -1,0 +1,15 @@
+.div{
+    width : 200px;
+    height: 200px;
+    background-color: aquamarine;
+    animation-name: example;
+    animation-duration: 2s;
+}
+@keyframes example{
+    from{
+        background-color: aquamarine;
+    }
+    to{
+        background-color: slateblue;
+    }
+}
