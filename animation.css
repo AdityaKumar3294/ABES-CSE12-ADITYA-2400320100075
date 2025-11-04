@@ -6,6 +6,7 @@
     animation-duration: 4s;
     position: relative;
     animation-delay: 2s;
+    animation-iteration-count: 5;
 }
 /**@keyframes example{
     from{
