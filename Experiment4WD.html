@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Catalogue Table</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+  }
+
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f5f5f5;
+  }
+
+  .header-row td {
+    font-weight: bold;
+  }
+
+  .title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .section {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .amount {
+    text-align: right;
+  }
+</style>
+
+</head>
+<body>
+
+  <table>
+    <tr class="header-row">
+      <td>Logo</td>
+      <td colspan="5" class="title">Web Site Name</td>
+    </tr>
+
+    <tr>
+      <td>Home</td>
+      <td>Login</td>
+      <td>Registration</td>
+      <td>Catalogue</td>
+      <td>Cart</td>
+    </tr>
+
+    <tr>
+      <td class="section">CSE</td>
+      <td>Book name</td>
+      <td>Price</td>
+      <td>Quantity</td>
+      <td>Amount</td>
+    </tr>
+
+    <tr>
+      <td class="section">ECE</td>
+      <td>Java 2</td>
+      <td>$35.5</td>
+      <td>2</td>
+      <td>$70</td>
+    </tr>
+
+    <tr>
+      <td class="section">EEE</td>
+      <td>XML bible</td>
+      <td>$40.5</td>
+      <td>1</td>
+      <td>$40.5</td>
+    </tr>
+
+    <tr>
+      <td class="section">CIVIL</td>
+      <td colspan="3">Total amount</td>
+      <td class="amount">- $130.5</td>
+    </tr>
+  </table>
+
+</body>
+</html>
