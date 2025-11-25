@@ -1,26 +1,42 @@
 
 body{
     display: flex;
-    gap: 10px;
+    gap: 50px;
     justify-content: center;
+    align-items: flex-start;
+
+
 }
 .box1{
     width: 200px;
     height: 200px;
-    background-color: red
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .box2{
     background-color: blue;
     width: 200px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box3{
     background-color: green;
     width: 200px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box4{
     background-color: yellow;
     width: 200px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
