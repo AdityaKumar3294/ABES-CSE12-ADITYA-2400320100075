@@ -3,8 +3,9 @@ body{
     display: flex;
     gap: 50px;
     justify-content: center;
-    align-items: flex-start;
-
+    align-items: center;
+    min-height: 100vh;   /* full viewport height so centering works */
+    margin: 0; 
 
 }
 .box1{
