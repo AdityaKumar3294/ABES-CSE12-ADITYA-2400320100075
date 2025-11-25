@@ -1,18 +1,25 @@
-:root{
-    --color:#b01eff;
-    --bg:#e4ee16;
-    --yel:red;
-}
+
 body{
-    background-color: var(--bg);
+    display: flex;
+    gap: 10px;
 }
 .box1{
     width: 200px;
     height: 200px;
-    background-color: var(--color);
+    background-color: red
 }
 .box2{
-    background-color: var(--yel);
-    width: 150px;
-    height: 150px;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+.box3{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+.box4{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
 }
