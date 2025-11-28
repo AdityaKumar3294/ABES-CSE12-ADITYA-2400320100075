@@ -4,7 +4,7 @@ body{
     gap: 50px;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;   /* full viewport height so centering works */
+    min-height: 100vh;   
     margin: 0; 
 
 }
