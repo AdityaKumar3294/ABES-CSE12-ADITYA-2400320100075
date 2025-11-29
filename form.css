@@ -1,23 +1,126 @@
+/* ...existing code... */
 
 form{
-     background-image: url("https://www.abes.ac.in/assets/Logo.png");
-     background-size: cover;
-     color: blue;
+    color: #111;
+    background-color: #fffbe6;
+    padding: 28px;
+    border: 1px solid #d6cfa8;
+    width: 100%;
+    max-width: 900px;
+    margin: 32px auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
 }
-input[type="text"], input[type="email"], input[type="password"]{
-     width:200px;
-     padding: 12px 20px;
-     margin : 8px 0;
-     display: inline-block;
-     border: 1px solid #ccc;
-     box-sizing: border-box;
+
+/* label + field layout */
+form label{
+    display: block;
+    margin: 8px 0 6px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #333;
 }
+
+/* fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px 14px;
+    margin: 6px 0 12px;
+    display: block;
+    border: 1px solid #cfcfcf;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 0.95rem;
+    transition: border-color .18s ease, box-shadow .18s ease;
+    background-color: #fff;
+    color: #222;
+}
+
+/* focus state */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 4px rgba(59,130,246,0.08);
+}
+
+/* smaller inline inputs (if needed) */
+.input-inline{
+    display: inline-block;
+    width: calc(50% - 8px);
+    vertical-align: top;
+}
+
+/* actions / buttons container */
+.form-actions{
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+/* primary button */
 button{
-     background-color: blue;
-     color: white;
-     padding: 14px 20px;
-     margin: 8px 0;
-     border: none;
-     cursor: pointer;
-     width: 100px;
+    background-color: #2563eb;
+    color: #fff;
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 600;
+    min-width: 100px;
+    transition: background-color .15s ease, transform .08s ease;
+    box-shadow: 0 2px 6px rgba(37,99,235,0.18);
+}
+
+button:hover{
+    background-color: #1e56c7;
+    transform: translateY(-1px);
+}
+
+/* cancel button (secondary) */
+.cancelbtn{
+    background-color: #ef4444;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    box-shadow: none;
+}
+.cancelbtn:hover{
+    background-color: #dc2626;
+}
+
+/* helper text / small */
+.form-note{
+    font-size: 0.87rem;
+    color: #555;
+    margin-top: 8px;
+}
+
+/* responsive adjustments */
+@media (max-width: 700px){
+    form{
+        padding: 18px;
+        margin: 18px;
+    }
+    .input-inline{
+        display: block;
+        width: 100%;
+    }
+    .form-actions{
+        justify-content: center;
+    }
+}
+.select{
+     height: 40px;
 }
