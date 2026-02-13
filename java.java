@@ -31,7 +31,7 @@ class E extends D implements A,M{
     }
 }
 
-public class InterfaceTester {
+public class java {
     public static void main(String[] args){
         E obe = new E();
         obe.f1();
@@ -40,6 +40,6 @@ public class InterfaceTester {
         obe.m1();
         obe.hello();
         A obj = new E();
-        obja.f1();
+        obj.f1();
     }
 }
