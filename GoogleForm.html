@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Google Form Clone</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0ebf8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    margin: 40px auto;
+}
+
+.form-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.form-header {
+    border-top: 8px solid #673ab7;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #673ab7;
+    outline: none;
+}
+
+.radio-group {
+    margin-top: 5px;
+}
+
+button {
+    background-color: #673ab7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a2ea6;
+}
+
+.success-message {
+    display: none;
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="form-card">
+        <div class="form-header">
+            <h2>Student Feedback Form</h2>
+            <p>Please fill out this form carefully.</p>
+        </div>
+
+        <form id="myForm">
+            
+            <div class="form-group">
+                <label>Name *</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Email *</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Branch</label>
+                <select id="branch">
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="ECE">ECE</option>
+                    <option value="ME">ME</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Rate our teaching</label>
+                <div class="radio-group">
+                    <input type="radio" name="rating" value="Excellent" required> Excellent<br>
+                    <input type="radio" name="rating" value="Good"> Good<br>
+                    <input type="radio" name="rating" value="Average"> Average<br>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Suggestions</label>
+                <textarea id="suggestions" rows="3"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+            <div class="success-message" id="successMsg">
+                Form submitted successfully!
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<script>
+document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    let name = document.getElementById("name").value.trim();
+    let email = document.getElementById("email").value.trim();
+
+    if(name === "" || email === "") {
+        alert("Please fill all required fields!");
+        return;
+    }
+
+    document.getElementById("successMsg").style.display = "block";
+    this.reset();
+});
+</script>
+
+</body>
+</html>
