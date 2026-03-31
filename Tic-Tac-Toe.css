@@ -28,7 +28,7 @@ body {
 .box {
     height: 18vmin;
     width: 18vmin;
-    background-color: #fff;
+    background-color: #ffffc7;
     border-radius: 1rem;
     border: none;
     font-size: 8vmin;
@@ -44,4 +44,40 @@ body {
     border: none;
     border-radius: 1rem;
     cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color: #b0413e;
+}
+
+#play-again-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#play-again-btn:hover {
+    background-color: #b0413e;
+}
+
+#msg {
+    font-size: 5vmin;
+    color: #191913;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
 }
